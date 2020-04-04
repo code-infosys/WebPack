@@ -9,9 +9,14 @@ namespace WebPack.Helper
             return "Your message is: " + inputMessage;
         }
 
-        //public int GetSum(int value1,int value2)
-        //{
-        //    return (value1 + value2);
-        //}
+        public int GetSum(int value1, int value2)
+        {
+            return (value1 + value2);
+        }
+
+        public int GetMul(int value1, int value2)
+        {
+            return (value1 * value2);
+        }
     }
 }
